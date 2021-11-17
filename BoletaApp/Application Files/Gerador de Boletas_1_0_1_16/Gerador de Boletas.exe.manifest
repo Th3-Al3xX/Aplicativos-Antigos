@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gerador de Boletas.exe" version="1.0.1.16" publicKeyToken="a780e584c153d66f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="notepad_bloc_notes_15548.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gerador de Boletas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gerador de Boletas.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gerador de Boletas.exe" size="111032">
+      <assemblyIdentity name="Gerador de Boletas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G5NJAGCrBbRm3yw79nULJAEKZn26/QCrSsuNSEROnE4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gerador de Boletas.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="notepad_bloc_notes_15548.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lMJGSFYJAVG21xOYk3Q3e5/bnYah/5nOeZJM4rOb97Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Dev-PC\Dev" issuerKeyHash="0182f6fb52ed52f32d0b0dfae5cd9c34c632fefb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fIVRMD11EaPlXYmM5HH/sdVkN9++3Opp6vMubBf6UeU=</DigestValue></Reference></SignedInfo><SignatureValue>DTHBGvSrTqYE//0akH51pXpoIVD+xgpEKPXqvR8oeHScyW3V21TAanjR06FKozC65Q7NWm0cBTQZRXCcwLzSk0b31DwXPcDlVYp8f22xkkRtkPc0ZtCNxJKNfZpzMkwTEL7AVPawWsj33glGDIsuuOYzo37y0L09Pa+5CTJ9Tkc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2DBBY8/71C/H3g2nyOY4a8U13qsMhq+DRGkfBULVzEHe/q4/7WGvQ6v3uB1gWbyM+2/vAQndYtYyn0qooRcGiMYDBObM3PF/7E7oq/jIRKtFg5Pan3tDYMH2tFzvzZCQU5wdvD+gxqe2DEX4BD1Mr+8Kn5RJ/6fsCSPvvNuWvrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e551fa176c2ef3ea69eadcbedf3764d5b1ff71e48c895de5a311753d3051857c" Description="" Url=""><as:assemblyIdentity name="Gerador de Boletas.exe" version="1.0.1.16" publicKeyToken="a780e584c153d66f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Dev-PC\Dev</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rPRg4+OX5fd+oZ8uzL2049o7jrgJL8qLh/B1u9fw/A4=</DigestValue></Reference></SignedInfo><SignatureValue>MYcjCXgSsImpoA/ZB6u3yjZiM1RKL4EFADi6O/tsk0AcCSYBupl4XvBoVKdBxRASgf7MYcRkrZ9jya5K7APLj3WR2MW0h55ekIyyvWmZVYdMcVD1ImWk+VoaPBi4ByQzrbHj9zsJsliMhqGRlQ5XADO8q9COrMls08zoWLnBmD0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2DBBY8/71C/H3g2nyOY4a8U13qsMhq+DRGkfBULVzEHe/q4/7WGvQ6v3uB1gWbyM+2/vAQndYtYyn0qooRcGiMYDBObM3PF/7E7oq/jIRKtFg5Pan3tDYMH2tFzvzZCQU5wdvD+gxqe2DEX4BD1Mr+8Kn5RJ/6fsCSPvvNuWvrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQLczonSw9UqVC1VZIpi6BfjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQARABlAHYALQBQAEMAXABEAGUAdjAeFw0xOTA2MDQxOTA1NTVaFw0yMDA2MDQwMTA1NTVaMB8xHTAbBgNVBAMeFABEAGUAdgAtAFAAQwBcAEQAZQB2MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYMEFjz/vUL8feDafI5jhrxTXeqwyGr4NEaR8FQtXMQd7+rj/tYa9Dq/e4HWBZvIz7b+8BCd1i1jKfSqihFwaIxgME5szc8X/sTuir+MhEq0WDk9qfe0Ngwfa0XO/NkJBTnB28P6DGp7YMRfgEPUyv7wqflEn/p+wJI++825a+tQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEJ/JrrFwD+mNYJDg+ncfXZHbPkHmPPZIBR4ci70L3ED501DqI+xGigN0A0sdr9ngWPFPCm6y8UW4Cr/tqoKSQROGpsEmlsrCE5uabR2XR7CgS7Pg1rQWCD2OlS194DfITyAv/MP49Enz8OarKvDKWofN3ZkcmDnlaUA8zpMHcZt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
